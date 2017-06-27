@@ -18,8 +18,9 @@
 
 @define-mixin clearFix{
 	&::after {
-		content: " ";
+		content: "";
 		clear: both;
 		display: table;
 	}
-}
+
+
